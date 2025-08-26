@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Fashion Brand Colors
+				fashion: {
+					rose: 'hsl(var(--fashion-rose))',
+					blush: 'hsl(var(--fashion-blush))',
+					cream: 'hsl(var(--fashion-cream))',
+					charcoal: 'hsl(var(--fashion-charcoal))',
+					gray: 'hsl(var(--fashion-gray))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -88,7 +96,18 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fadeIn 0.6s ease-out',
+				'slide-up': 'slideUp 0.5s ease-out',
+				'hover-lift': 'hoverLift 0.3s ease-out'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-button': 'var(--gradient-button)'
+			},
+			fontFamily: {
+				'fashion': ['Inter', 'system-ui', 'sans-serif']
 			}
 		}
 	},
