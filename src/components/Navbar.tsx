@@ -36,9 +36,11 @@ const Navbar = () => {
 
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" size="icon" className="text-foreground hover:text-fashion-rose">
-              <ShoppingBag className="h-5 w-5" />
-            </Button>
+            <a href="/cart">
+              <Button variant="ghost" size="icon" className="text-foreground hover:text-fashion-rose">
+                <ShoppingBag className="h-5 w-5" />
+              </Button>
+            </a>
             <Button variant="outline">
               <User className="h-4 w-4 mr-2" />
               Login
@@ -87,9 +89,11 @@ const Navbar = () => {
               Contact
             </a>
             <div className="flex items-center space-x-2 px-3 py-2">
-              <Button variant="ghost" size="icon" className="text-foreground hover:text-fashion-rose">
-                <ShoppingBag className="h-5 w-5" />
-              </Button>
+              <a href="/cart">
+                <Button variant="ghost" size="icon" className="text-foreground hover:text-fashion-rose">
+                  <ShoppingBag className="h-5 w-5" />
+                </Button>
+              </a>
               <Button variant="outline" size="sm">
                 <User className="h-4 w-4 mr-2" />
                 Login
